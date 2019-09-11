@@ -13,6 +13,11 @@
     <artifactId>microservicecloud-provider-dept-hystrix-8001</artifactId>
 
     <dependencies>
+        <!-- actuator监控信息完善 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
         <!--  hystrix -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
